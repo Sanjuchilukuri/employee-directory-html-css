@@ -1,0 +1,131 @@
+@import url(../styles/common.css);
+.active-roles {
+  margin-top: 1rem;
+  background-color: #fde9e9;
+  border-radius: 8px;
+  p {
+    color: #f44848 !important;
+  }
+}
+.active-roles::after {
+  color: #f44848 !important;
+}
+.roles-wrapper {
+  position: relative;
+}
+.roles-wrapper::after {
+  content: " ";
+  position: absolute;
+  right: .5rem;
+  top: 0;
+  height: 3.06rem;
+  width: 4px;
+  border-radius: 5px 0 0 5px;
+  background-color: #f44848;
+}
+
+.main-content {
+  .add-employee {
+    h2 {
+      font-weight: 600;
+    }
+    button {
+      padding: 0.7rem 1rem;
+    }
+  }
+  .cards {
+    display: flex;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    gap: 1.3rem;
+    p {
+      color: #4c5f71;
+    }
+    .card {
+      width: 20.625rem;
+      padding: 1rem;
+      box-shadow: 0 0 0 2px #e6e6e6;
+      border-radius: .625rem;
+      .text-icon {
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 1rem;
+          font-weight: bold;
+          margin: .7rem 0rem;
+        }
+      }
+      .about {
+        .department,
+        .location {
+          display: flex;
+          justify-content: space-between;
+          p {
+            font-size: 1rem;
+            margin: 0.4rem;
+          }
+          .department-text,
+          .location-text {
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+          }
+        }
+        .total-employees {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          img {
+            height: 1.25rem;
+            width: 1.25rem;
+            border-radius: 50%;
+            position: relative;
+          }
+          .img-container {
+            display: flex;
+            position: relative;
+            left: 1.875rem;
+            img:first-child {
+              z-index: 1;
+            }
+            img:nth-child(2) {
+              z-index: 2;
+              right: .625rem;
+            }
+            img:nth-child(3) {
+              z-index: 3;
+              right: 1.25rem;
+            }
+            img:nth-child(4) {
+              z-index: 4;
+              right: 1.875rem;
+            }
+            p {
+              z-index: 5;
+              font-size: .75rem;
+              position: relative;
+              margin: 0;
+              border-radius: 50%;
+              background-color: #fff;
+              color: #4c5f71;
+              text-align: center;
+              right: 2.5rem;
+            }
+          }
+        }
+      }
+      .employee-view {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: .625rem;
+        a {
+          text-decoration: none;
+          p{
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

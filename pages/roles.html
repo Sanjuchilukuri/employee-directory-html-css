@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/roles.css" />
+    <title>Tezo</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Section Starts -->
+      <aside class="sidebar">
+        <!-- icon section starts -->
+
+        <div class="logo">
+          <img src="../images/tezoLogo.svg" alt="Logo image" />
+        </div>
+
+        <!-- icon section ends -->
+
+        <!-- sidenav-content starts -->
+        <div class="sidenav-content">
+          <div>
+            <!-- dashboard items section starts -->
+            <section class="sidenav-all">
+              <p>ALL</p>
+              <div class="sidenav-all-dashboard">
+                <div class="all-dashboard-item">
+                  <div>
+                    <img src="../images/dashboard.svg" alt="dashboard image" />
+                    <p>Dashboard</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sidenav-all-employee">
+                <a href="./index.html">
+                  <div class="all-employees-item">
+                    <div>
+                      <img src="../images/employee.svg" alt="employees image" />
+                      <p>Employees</p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </section>
+            <!-- dashboard items section ends  -->
+
+            <!-- sidenav-role section starts -->
+
+            <section class="sidenav-role">
+              <p>ROLE/USER MANAGEMENT</p>
+              <div class="roles-wrapper">
+                <div class="user-roles active-roles">
+                  <img src="../images/roles.svg" alt="roles image" />
+                  <p>Roles</p>
+                </div>
+              </div>
+              <div class="user-roles">
+                <img src="../images/access-rights.svg" alt="user roles image" />
+                <p>Access Rights</p>
+              </div>
+            </section>
+            <!-- sidenav-role section ends-->
+          </div>
+
+          <!-- Update section starts -->
+          <section class="sidenav-update">
+            <p>Install new update 2.3.1A</p>
+            <p class="update-description">
+              Allow to launch the new update for the AD application
+            </p>
+            <div>
+              <button>Dismiss</button>
+              <button>Accept</button>
+            </div>
+          </section>
+          <!-- Update section ends -->
+        </div>
+        <!-- sidenav-content ends -->
+      </aside>
+      <!-- Sidebar section ends -->
+
+      <!-- Main section starts -->
+      <main>
+        <!-- header Section starts -->
+        <header>
+          <div class="header-search-bar">
+            <input type="text" placeholder="Search (ctrl+/)" />
+          </div>
+          <div class="header-icons">
+            <img src="../images/language.png" alt="language image" />
+            <img src="../images/mode.png" alt="view image" />
+            <img src="../images/theme.png" alt="theme image" />
+            <img src="../images/notification.png" alt="notofications image" />
+            <img src="../images/admin.png" alt="admin image" />
+            <div class="user-info">
+              <p>John Abraham</p>
+              <p class="role">Admin</p>
+            </div>
+          </div>
+        </header>
+        <!-- header Section ends -->
+
+        <!-- Main content section starts -->
+        <div class="main-content">
+          <!-- Add role section starts -->
+          <section class="add-employee">
+            <div>
+              <h2>Roles</h2>
+              <p>All the roles are configured here</p>
+            </div>
+            <button class="add-btn">ADD ROLE</button>
+          </section>
+          <!-- Add role section ends -->
+
+          <!-- filter section starts -->
+          <section class="filter">
+            <div class="filter-options">
+              <p>Filter</p>
+              <img src="../images/sort-descending.png" alt="sorting icon" />
+              <div>
+                <select name="Location">
+                  <option value="Active">Location</option>
+                  <option value="Active">Hyderabad</option>
+                  <option value="InActive">Seatle</option>
+                </select>
+              </div>
+
+              <div>
+                <select name="Department">
+                  <option value="InActive">Department</option>
+                  <option value="Active">Product Engg</option>
+                  <option value="InActive">UIUX</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <button class="reset-btn">Reset</button>
+              <button class="apply-btn">Apply</button>
+            </div>
+          </section>
+          <!-- filter section ends -->
+
+          <section class="cards">
+            <div class="card">
+              <div class="text-icon">
+                <p>Customer Service Manager</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>IT</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="text-icon">
+                <p>Ux Designer</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>product Engg.</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="text-icon">
+                <p>Asistant Bankend Developer</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>UIUX</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="text-icon">
+                <p>Human Resource Manager</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>IT</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="text-icon">
+                <p>Front End Developer</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>product Engg.</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="text-icon">
+                <p>Senior Developer</p>
+                <img src="../images/edit.svg" alt="edit icon" />
+              </div>
+              <div class="about">
+                <div class="department">
+                  <div class="department-text">
+                    <img src="../images/employee.svg" alt="department icon" />
+                    <p>Department</p>
+                  </div>
+                  <p>UIUX</p>
+                </div>
+
+                <div class="location">
+                  <div class="location-text">
+                    <img src="../images/location.svg" alt="location icon" />
+                    <p>Location</p>
+                  </div>
+                  <p>Hyderabad</p>
+                </div>
+
+                <div class="total-employees">
+                  <p>Total Employees</p>
+                  <div class="img-container">
+                    <img
+                      src="../images/profiles/image-eight.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-eleven.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-five.webp"
+                      alt="employee icon"
+                    />
+                    <img
+                      src="../images/profiles/image-four.webp"
+                      alt="employee icon"
+                    />
+                    <p>+43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-view">
+                <a href="./empInf.html"><p>view all Employees</p></a>
+                <img src="../images/right-arrow.svg" alt="arrow icon" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+      <!-- Main content section ends -->
+    </div>
+  </body>
+</html>
